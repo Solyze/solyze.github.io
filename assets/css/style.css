@@ -1,0 +1,73 @@
+body {
+    font-family: 'Lato', sans-serif !important;
+}
+
+.headertext-large {
+    font-size: 3.5em !important;
+    text-align: center;
+}
+
+.headertext-medium {
+    font-size: 2.5em !important;
+    text-align: center;
+}
+
+.headertext-small {
+    font-size: 2.0em !important;
+    text-align: center;
+}
+
+.fadeload {
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.gridleft-header {
+    color: white;
+    font-size: 2.5em;
+}
+
+.gridleft-content {
+    color: white;
+    font-size: 1.5em;
+}
+
+.gridleft-image {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+      -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+      -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+      -khtml-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336);
+}
+
+.shad {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+      -khtml-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
