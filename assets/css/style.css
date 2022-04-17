@@ -25,6 +25,23 @@ body {
             animation: fadein 2s;
 }
 
+.navbar_skull {
+    transition: all .2s ease-in-out;
+}
+
+.navbar_skull:hover {
+    transform: scale(1.08);
+}
+
+.expandable_social_icon {
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.expandable_social_icon:hover {
+    transform: scale(1.2);
+}
+
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
