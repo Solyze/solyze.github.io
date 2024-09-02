@@ -1,4 +1,4 @@
-# Solyze's Portfolio
+# Solyze's Portfolio (NOW MY OLD WEBSITE - PORTFOLIO FOR MY NEW WEBSITE IS WIP)
 Discord: Solyze#3343<br>
 E-Mail: zsebbenog@gmail.com
 
